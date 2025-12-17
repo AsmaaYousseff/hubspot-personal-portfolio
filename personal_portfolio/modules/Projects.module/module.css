@@ -1,0 +1,85 @@
+/* =========================
+   PROJECTS SECTION (MATCH SKILLS)
+========================= */
+
+.projects {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.projects-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+.projects-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #111;
+
+}
+
+.projects-description {
+
+  margin-bottom: 32px;
+  color: #111;
+ 
+}
+/* =========================
+   GRID (SAME AS SKILLS)
+========================= */
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* =========================
+   PROJECT CARD (CLONE OF SKILL CARD)
+========================= */
+
+.project-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* =========================
+   HOVER EFFECT
+========================= */
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   PROJECT ICON
+========================= */
+
+.project-icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+/* =========================
+   PROJECT TITLE
+========================= */
+
+.project-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+}

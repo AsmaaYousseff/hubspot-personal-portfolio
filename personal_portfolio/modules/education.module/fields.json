@@ -1,0 +1,63 @@
+[ {
+  "id" : "9d9ade3f-42d0-7ecc-6a01-bd605e57c0c5",
+  "name" : "section_title",
+  "label" : "section_title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Education"
+}, {
+  "id" : "735f5ddf-5a15-113c-52e0-082f6fbd24e0",
+  "name" : "degree",
+  "label" : "degree",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Bachelor's in Computer Science"
+}, {
+  "id" : "66381a98-65b8-5b5a-475c-d2a99cd72c51",
+  "name" : "university",
+  "label" : "university",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Fayoum University"
+}, {
+  "id" : "400cab9d-ae9b-73ab-b8e3-66df60af72c7",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "3f8d9aa6-2cbd-59af-cf37-c9b0cffdd41e",
+    "name" : "text_alignment_field",
+    "label" : "Text alignment",
+    "required" : false,
+    "locked" : false,
+    "type" : "textalignment",
+    "display_width" : null,
+    "default" : { }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : { }
+}, {
+  "id" : "a434399d-d6a2-10fb-a97a-58dc1f2d39d3",
+  "name" : "ongoing",
+  "label" : "Ongoing",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Ongoing | Focus on ..."
+} ]

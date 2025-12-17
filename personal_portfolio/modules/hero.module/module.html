@@ -1,0 +1,46 @@
+<section class="hero-section" , style="text-align: {{ module.style.text_alignment_field.text_align }}">
+  <div class="hero-container">
+
+    {% if module.section_label %}
+      <h2 class="hero-title">
+        {{ module.section_label }}
+      </h2>
+    {% endif %}
+
+    <div class="hero-card">
+      
+      <!-- LEFT CONTENT -->
+      <div class="hero-text">
+        {% if module.name_ %}
+          <h1 class="hero-name">{{ module.name_ }}</h1>
+        {% endif %}
+
+        {% if module.description %}
+          <div class="hero-description">
+            {{ module.description }}
+          </div>
+        {% endif %}
+
+        {% if module.job_title %}
+          <div class="hero-title-box">
+            {{ module.job_title }}
+          </div>
+        {% endif %}
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      {% if module.profile_image.src %}
+        <div class="hero-image-wrapper">
+          <div class="hero-image-ring">
+            <img
+              src="{{ module.profile_image.src }}"
+              alt="{{ module.profile_image.alt }}"
+              class="hero-image"
+            />
+          </div>
+        </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>

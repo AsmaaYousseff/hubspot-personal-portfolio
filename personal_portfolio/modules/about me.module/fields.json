@@ -1,0 +1,42 @@
+[ {
+  "id" : "70e2ea70-009f-221e-6731-7cd8c175c4ae",
+  "name" : "About_Title",
+  "label" : "About_Title",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "About Me",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "About Me"
+}, {
+  "id" : "eab9b363-43f8-b00b-f8e9-d4fffa9ede2b",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "b2d79d8c-9fbb-7614-33d0-7208bdba0e31",
+    "name" : "text_alignment_field",
+    "label" : "Text alignment",
+    "required" : false,
+    "locked" : false,
+    "type" : "textalignment",
+    "display_width" : null,
+    "default" : { }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : { }
+}, {
+  "id" : "52bd7791-0adb-21fb-e166-ce85eb7a7773",
+  "name" : "About_Description",
+  "label" : "About_Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null
+} ]

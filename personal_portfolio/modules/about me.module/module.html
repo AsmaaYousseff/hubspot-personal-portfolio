@@ -1,0 +1,17 @@
+<section class="about-section" , style="text-align: {{ module.style.text_alignment_field.text_align }}">
+  <div class="about-container">
+    
+    {% if module.About_Title %}
+      <h2 class="about-title">
+        {{ module.About_Title }}
+      </h2>
+    {% endif %}
+
+    {% if module.About_Description %}
+      <div class="about-text">
+        {{ module.About_Description }}
+      </div>
+    {% endif %}
+
+  </div>
+</section>

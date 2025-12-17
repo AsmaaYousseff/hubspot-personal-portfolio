@@ -1,0 +1,40 @@
+<section class="contacts">
+  <div class="contacts-container">
+
+    <h2 class="contacts-title", style="text-align: {{ module.style.text_alignment_field.text_align }}">
+      {{ module.section_title }}
+    </h2>
+
+    {% if module.intro_text %}
+      <p class="contacts-intro" , style="text-align: {{ module.style.text_alignment_field.text_align }}">
+        {{ module.intro_text }}
+      </p>
+    {% endif %}
+
+    <div class="contacts-list" >
+      {% for item in module.contacts %}
+        <a
+          class="contact-card"
+          href="{{ item.link.url.href }}"
+          {% if item.link.open_in_new_tab %}target="_blank"{% endif %}
+          {% if item.link.rel %}rel="{{ item.link.rel }}"{% endif %}
+        >
+
+          {% if item.icon.src %}
+            <img
+              src="{{ item.icon.src }}"
+              alt="{{ item.icon.alt }}"
+              class="contact-icon"
+              loading="lazy"
+            />
+          {% endif %}
+
+          <h3 class="contact-title", style="text-align: {{ module.style.text_alignment_field.text_align }}">{{ item.contact_text }}</h3>
+          <p class="contact-value", style="text-align: {{ module.style.text_alignment_field.text_align }}">{{ item.contact_value }}</p>
+
+        </a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

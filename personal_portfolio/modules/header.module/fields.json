@@ -1,0 +1,38 @@
+[ {
+  "id" : "6fbb7e98-4705-b025-ec93-af037c50fec1",
+  "name" : "menu_items",
+  "label" : "menu_items",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "53adfbe8-e55f-427d-2449-d9a8e4210c4f",
+    "name" : "Label",
+    "label" : "Label",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "4c92bea9-338c-6e75-4886-38b57d98db96",
+    "name" : "section_id",
+    "label" : "section_id",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

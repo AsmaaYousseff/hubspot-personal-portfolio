@@ -1,0 +1,29 @@
+<section class="skills", style="text-align: {{ module.style.text_alignment_field.text_align }}">
+  <div class="skills-container">
+
+    <h2 class="skills-title" , style="text-align: {{ module.style.text_alignment_field.text_align }}">
+      {{ module.section_title }}
+    </h2>
+
+    <div class="skills-list">
+      {% for item in module.skills %}
+        <div class="skill-card">
+
+          {% if item.icon.src %}
+            <img 
+              src="{{ item.icon.src }}" 
+              alt="{{ item.skill_title }}" 
+              class="skill-icon"
+            >
+          {% endif %}
+
+          <h3>{{ item.skill_title }}</h3>
+
+          <p>{{ item.description }}</p>
+
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

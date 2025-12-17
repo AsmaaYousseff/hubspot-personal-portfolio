@@ -1,0 +1,59 @@
+<!--
+  templateType: "page"
+  isAvailableForNewContent: true
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personal Portfolio</title>
+  {{ standard_header_includes }}
+</head>
+
+<body>
+
+  {% dnd_area "dnd_area"
+    label="Personal Portfolio Page"
+  %}
+
+    {% dnd_section %}
+      {% dnd_module path="../modules/hero" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+
+    {% dnd_section %}
+      {% dnd_module path="../modules/about me" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+
+    {% dnd_section %}
+      {% dnd_module path="../modules/education" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+
+    {% dnd_section %}
+      {% dnd_module path="../modules/skills" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+
+    {% dnd_section %}
+      {% dnd_module path="../modules/work_experience" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+  
+    {% dnd_section %}
+      {% dnd_module path="../modules/Projects" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+
+    {% dnd_section %}
+      {% dnd_module path="../modules/Contacts" %}
+      {% end_dnd_module %}
+    {% end_dnd_section %}
+
+  {% end_dnd_area %}
+
+  {{ standard_footer_includes }}
+
+</body>
+</html>

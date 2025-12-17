@@ -1,0 +1,101 @@
+[ {
+  "id" : "dfa5afaa-01da-fbc9-6993-846f63f42d20",
+  "name" : "section_title",
+  "label" : "Section Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Contacts"
+}, {
+  "id" : "4c7488dd-69f2-61b6-a213-64ec1c994f08",
+  "name" : "intro_text",
+  "label" : "Intro Text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null
+}, {
+  "id" : "cb7dc7df-9264-6d5b-219f-88aed3ddac11",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "5df5ba68-d49f-870f-c2df-c39224fcc3c5",
+    "name" : "text_alignment_field",
+    "label" : "Text alignment",
+    "required" : false,
+    "locked" : false,
+    "type" : "textalignment",
+    "display_width" : null,
+    "default" : {
+      "text_align" : "LEFT"
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "text_alignment_field" : {
+      "text_align" : "LEFT"
+    }
+  }
+}, {
+  "id" : "7f145235-ed47-244d-13fd-ba00febb78fa",
+  "name" : "contacts",
+  "label" : "contacts",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "65fe6d30-1829-744c-f63b-135ae83cabcb",
+    "name" : "icon",
+    "label" : "Icon",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }, {
+    "id" : "ce428973-b663-b402-1c00-66a0a971bce9",
+    "name" : "contact_text",
+    "label" : "Contact Title",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "57ff1fc5-62d9-fffe-26a7-7362cef13b1a",
+    "name" : "contact_value",
+    "label" : "Contact Value",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

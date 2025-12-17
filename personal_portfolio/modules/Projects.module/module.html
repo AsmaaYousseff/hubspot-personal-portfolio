@@ -1,0 +1,41 @@
+<section class="projects", style="text-align: {{ module.style.text_alignment_field.text_align }}">
+  <div class="projects-container">
+
+    {% if module.section_title %}
+      <h2 class="projects-title", style="text-align: {{ module.style.text_alignment_field.text_align }}">
+        {{ module.section_title }}
+      </h2>
+    {% endif %}
+
+    <div class="projects-list">
+      {% for project in module.projects %}
+        <div class="project-card">
+
+          {% if project.icon.src %}
+            <div class="project-icon">
+              <img
+                src="{{ project.icon.src }}"
+                alt="{{ project.icon.alt }}"
+                loading="lazy"
+              >
+            </div>
+          {% endif %}
+
+          {% if project.title %}
+            <h3 class="project-title">
+              {{ project.title }}
+            </h3>
+          {% endif %}
+
+          {% if project.description %}
+            <div class="project-description">
+              {{ project.description }}
+            </div>
+          {% endif %}
+
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>

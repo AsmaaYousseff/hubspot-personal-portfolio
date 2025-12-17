@@ -1,0 +1,37 @@
+<section class="work_experience", style="text-align: {{ module.style.text_alignment_field.text_align }}">
+
+  <div class="work_experience-container">
+
+    <!-- Section Title -->
+    {% if module.section_title %}
+      <h2 class="work_experience-title">
+        {{ module.section_title }}
+      </h2>
+    {% endif %}
+
+    <!-- Experience Cards -->
+    <div class="work_experience-list">
+
+      {% for item in module.experience %}
+        <div class="work_experience-item">
+
+          <h3 class="work_experience-job">
+            {{ item.job_title }}
+          </h3>
+
+          <span class="work_experience-meta">
+            {{ item.company }} · {{ item.date }}
+          </span>
+
+          <p class="work_experience-desc">
+            {{ item.description }}
+          </p>
+
+        </div>
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</section>

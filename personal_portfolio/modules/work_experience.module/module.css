@@ -1,0 +1,79 @@
+/* =========================
+   WORK EXPERIENCE SECTION
+========================= */
+
+.work_experience {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.work_experience-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+.work_experience-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #111;
+}
+
+/* =========================
+   LIST
+========================= */
+
+.work_experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.work_experience-item {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 14px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* =========================
+   CARD CONTENT
+========================= */
+
+.work_experience-job {
+  font-size: 22px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 6px;
+}
+
+.work_experience-meta {
+  display: block;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 14px;
+}
+
+.work_experience-desc {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin: 0;
+}
+
+/* =========================
+   HOVER EFFECT
+========================= */
+
+.work_experience-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}

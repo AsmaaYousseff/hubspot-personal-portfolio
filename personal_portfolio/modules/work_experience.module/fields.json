@@ -1,0 +1,94 @@
+[ {
+  "id" : "7b2cc2c6-d511-de2b-bce9-44d72267ffe0",
+  "name" : "section_title",
+  "label" : "Section Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Work Experience"
+}, {
+  "id" : "410b3e9c-b2b7-a0fd-dbc4-4831a0666927",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "a6f44ce4-8089-eeed-be23-0a0ffa4a882d",
+    "name" : "text_alignment_field",
+    "label" : "Text alignment",
+    "required" : false,
+    "locked" : false,
+    "type" : "textalignment",
+    "display_width" : null,
+    "default" : {
+      "text_align" : "LEFT"
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "text_alignment_field" : {
+      "text_align" : "LEFT"
+    }
+  }
+}, {
+  "id" : "d4079de8-2eff-648c-919a-2bd76bea839e",
+  "name" : "experience",
+  "label" : "Experience",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "20510efc-961b-9fa4-896a-46e5155ef863",
+    "name" : "job_title",
+    "label" : "Job Title",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "c0fe24b4-cca5-f755-7c3a-74520d8b2b22",
+    "name" : "company",
+    "label" : "Company",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "f3cdf4b5-33bf-a4f0-497f-f347200969e7",
+    "name" : "date",
+    "label" : "Date",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "75e032fb-8218-df92-5679-38880473b96a",
+    "name" : "description",
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ ]
+} ]

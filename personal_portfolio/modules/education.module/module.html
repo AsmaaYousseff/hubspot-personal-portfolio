@@ -1,0 +1,31 @@
+<section class="education-section" , style="text-align: {{ module.style.text_alignment_field.text_align }}">
+  <div class="education-container">
+
+    {% if module.section_title %}
+      <h2 class="education-title" >
+        {{ module.section_title }}
+      </h2>
+    {% endif %}
+
+    <div class="education-item">
+      {% if module.degree %}
+        <h3 class="education-degree">
+          {{ module.degree }}
+        </h3>
+      {% endif %}
+
+      {% if module.university %}
+        <p class="education-university">
+          {{ module.university }}
+        </p>
+      {% endif %}
+
+      {% if module.ongoing %}
+        <p class="education-duration">
+          {{ module.ongoing }}
+        </p>
+      {% endif %}
+    </div>
+
+  </div>
+</section>

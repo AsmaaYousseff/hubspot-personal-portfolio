@@ -1,0 +1,89 @@
+[ {
+  "id" : "f96681a4-345a-8701-b7ce-95df566504a2",
+  "name" : "section_label",
+  "label" : "Section Label",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Portfolio"
+}, {
+  "id" : "abd3e782-cc99-5113-9ad5-2b08332cd34a",
+  "name" : "name_",
+  "label" : "Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Asmaa Youssef"
+}, {
+  "id" : "5304c578-77a3-1f42-066c-df3e2e5192dd",
+  "name" : "description",
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "Welcome to 'Designing where innovation knows&nbsp;<br>no bounds. With a passion for pushing the&nbsp;<br>boundaries of UI/UX design."
+}, {
+  "id" : "9515756e-119d-17ad-ff9b-1249f7c26e36",
+  "name" : "job_title",
+  "label" : "Job Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "UI-UX Designer"
+}, {
+  "id" : "4e5aa110-ab87-0898-8d27-b76f46f42a3e",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "6aa5a775-f3dd-d770-cd0b-952596da62f8",
+    "name" : "text_alignment_field",
+    "label" : "Text alignment",
+    "required" : false,
+    "locked" : false,
+    "type" : "textalignment",
+    "display_width" : null,
+    "default" : {
+      "text_align" : "LEFT"
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "text_alignment_field" : {
+      "text_align" : "LEFT"
+    }
+  }
+}, {
+  "id" : "11face49-ecf3-e359-4c96-31553b0af73c",
+  "name" : "profile_image",
+  "label" : "Profile  Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://147152241.fs1.hubspotusercontent-eu1.net/hubfs/147152241/Capture-1.png",
+    "alt" : "Capture-1",
+    "loading" : "eager",
+    "width" : 810,
+    "height" : 681,
+    "max_width" : 810,
+    "max_height" : 681
+  }
+} ]

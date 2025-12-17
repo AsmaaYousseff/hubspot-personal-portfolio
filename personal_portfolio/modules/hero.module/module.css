@@ -1,0 +1,110 @@
+/* =========================
+   HERO SECTION (Same as About)
+========================= */
+
+.hero-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.hero-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* SECTION TITLE */
+
+.hero-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #111;
+}
+
+/* HERO CARD */
+
+.hero-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* LEFT TEXT */
+
+.hero-text {
+  max-width: 520px;
+}
+
+.hero-name {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 24px;
+}
+
+.hero-title-box {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 2px solid #222;
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+}
+
+/* RIGHT IMAGE */
+
+.hero-image-wrapper {
+  flex-shrink: 0;
+}
+
+.hero-image-ring {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  border: 2px solid #b7a86e;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .hero-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-title-box {
+    margin: 0 auto;
+  }
+}

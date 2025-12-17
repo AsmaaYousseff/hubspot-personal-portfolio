@@ -1,0 +1,140 @@
+/* =========================
+   CONTACTS SECTION
+========================= */
+
+.contacts {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.contacts-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* =========================
+   TITLE & INTRO
+========================= */
+
+.contacts-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.contacts-intro {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 32px;
+ 
+}
+
+/* =========================
+   LIST (VERTICAL)
+========================= */
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* =========================
+   CARD (ROW)
+========================= */
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #444;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   ICON
+========================= */
+
+.contact-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111;
+  margin: 0 0 4px;
+}
+
+.contact-value {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .contacts {
+    padding: 40px 16px;
+  }
+
+  .contacts-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .contacts-intro {
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-card {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    gap: 12px;
+  }
+
+  .contact-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .contact-title {
+    font-size: 16px;
+  }
+
+  .contact-value {
+    font-size: 14px;
+  }
+}

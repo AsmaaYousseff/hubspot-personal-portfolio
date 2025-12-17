@@ -1,0 +1,16 @@
+<section class="header-module">
+  <div class="header-container">
+
+    <nav class="header-nav">
+      {% for item in module.menu_items %}
+        <a
+          href="#{{ item.section_id }}"
+          class="header-link"
+        >
+          {{ item.Label }}
+        </a>
+      {% endfor %}
+    </nav>
+
+  </div>
+</section>

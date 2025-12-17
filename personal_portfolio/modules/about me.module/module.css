@@ -1,0 +1,52 @@
+/* =========================
+   Shared Section Style
+========================= */
+
+.about-section,
+.education-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-container,
+.education-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* =========================
+   Section Titles
+=========================  */
+
+.about-title,
+.education-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #111;
+}
+
+/* =========================
+   Content Card
+========================= */
+
+.about-text,
+.education-item {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #444;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* =========================
+   Hover Effect
+========================= */
+
+.about-text:hover,
+.education-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
