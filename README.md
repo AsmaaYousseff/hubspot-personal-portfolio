@@ -99,8 +99,8 @@ git push
 HubSpot CMS Developer
 
 * GitHub: [https://github.com/AsmaaYousseff](https://github.com/AsmaaYousseff)
-* LinkedIn: [www.linkedin.com/in/asmaa-youssef-7124052a4].(www.linkedin.com/in/asmaa-youssef-7124052a4)
-* Portfolio: [https://147152241.hs-sites-eu1.com/en/personal-portfolio].(https://147152241.hs-sites-eu1.com/en/personal-portfolio)
+* LinkedIn: [www.linkedin.com/in/asmaa-youssef-7124052a4](www.linkedin.com/in/asmaa-youssef-7124052a4)
+* Portfolio: [https://147152241.hs-sites-eu1.com/en/personal-portfolio](https://147152241.hs-sites-eu1.com/en/personal-portfolio)
 
 ---
 
