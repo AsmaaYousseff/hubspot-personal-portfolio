@@ -26,12 +26,6 @@ The project includes:
 * GitHub version control
 
 ---
-## Demo Video
-![Quick Preview](./assets/demo.gif)
-
-[▶ Full Demo Video](https://drive.google.com/file/d/1e24wJEv88VGG4jYN8S3l4IOJEo7wLJEp/view?usp=drive_link)
-
----
 
 ## Project Structure
 
@@ -64,6 +58,18 @@ personal_portfolio/
 * **HTML / CSS**
 * **HubL (HubSpot Markup Language)**
 * **Git & GitHub**
+
+---
+
+## Demo Video
+![Quick Preview](./assets/demo.gif)
+
+[▶ Full Demo Video](https://drive.google.com/file/d/1e24wJEv88VGG4jYN8S3l4IOJEo7wLJEp/view?usp=drive_link)
+
+---
+
+## Documentation
+[View Documentation](https://docs.google.com/document/d/12nE_xJ-bIDwvKZJOwaIjnLJJu0tjuxLx/edit?usp=sharing&ouid=105418867781840247072&rtpof=true&sd=true)
 
 ---
 
