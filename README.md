@@ -26,6 +26,11 @@ The project includes:
 * GitHub version control
 
 ---
+![Quick Preview](./assets/demo.gif)
+
+[▶ Full Demo Video](./assets/demo.mp4)
+
+---
 
 ## Project Structure
 
