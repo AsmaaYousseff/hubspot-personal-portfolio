@@ -55,7 +55,7 @@ personal_portfolio/
 
 * **HubSpot CMS**
 * **HubSpot CLI**
-* **HTML / CSS / JavaScript**
+* **HTML / CSS**
 * **HubL (HubSpot Markup Language)**
 * **Git & GitHub**
 
