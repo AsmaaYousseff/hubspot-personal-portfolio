@@ -26,6 +26,7 @@ The project includes:
 * GitHub version control
 
 ---
+## Demo Video
 ![Quick Preview](./assets/demo.gif)
 
 [▶ Full Demo Video](https://drive.google.com/file/d/1e24wJEv88VGG4jYN8S3l4IOJEo7wLJEp/view?usp=drive_link)
