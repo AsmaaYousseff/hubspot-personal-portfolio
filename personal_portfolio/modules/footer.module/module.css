@@ -1,0 +1,33 @@
+.footer {
+  background-color: #ffffff; 
+  color: #444;
+  padding: 20px 40px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left, 
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: red;
+  margin-left: 5px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}

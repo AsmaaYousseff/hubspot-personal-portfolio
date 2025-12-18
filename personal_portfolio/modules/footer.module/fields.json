@@ -1,0 +1,10 @@
+[ {
+  "id" : "b3074687-24de-4a6b-421e-80096b157039",
+  "name" : "portfolio_name",
+  "label" : "portfolio_name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+} ]
