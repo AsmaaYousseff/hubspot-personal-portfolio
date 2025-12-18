@@ -40,7 +40,8 @@ personal_portfolio/
 │   ├── work_experience.module/
 │   ├── education.module/
 │   ├── Contacts.module/
-│   └── header.module/
+│   ├── header.module/
+│   └── footer.module/
 │
 ├── template/
 │   └── template.html
